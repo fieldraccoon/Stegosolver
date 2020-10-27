@@ -7,4 +7,6 @@ run install.sh script and then run the file like so:
 ./run.sh image.jpeg
 ```
 
-Outputs a directory with all the results in it
+Outputs a directory with all the results in it.
+
+P.S its not very good atm if i want to make it good il come back to it.
