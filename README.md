@@ -1,5 +1,5 @@
 # Stegosolver
-A tool that auto solves your awful step challenges 
+A tool that auto solves your awful stego challenges 
 
 run install.sh script and then run the file like so:
 
