@@ -18,7 +18,6 @@ if [ ! -z "$base_file" ]; then
        	cd results
 	binwalk -e $base_file
 	cd ..
-	zsteg $base_file > results/zsteg.txt
 
 	
 
@@ -42,4 +41,6 @@ fi
 
 if [ "$file_ext" == "png" ]; then
 	exiftool $base_file > results/exiftool.txt
+	zsteg $base_file > results/zsteg.txt
+
 fi
