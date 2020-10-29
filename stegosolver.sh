@@ -44,3 +44,8 @@ if [ "$file_ext" == "png" ]; then
 	zsteg $base_file > results/zsteg.txt
 
 fi
+
+if [ "$file_ext" == "wav" ]; then
+	steghide extract -sf $base_file
+fi
+
